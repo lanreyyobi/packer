@@ -66,7 +66,7 @@ This will return a list of files inside your working directory.  Validate that a
 ```bash
 ...
 
--rw-r--r--   1 gabe  staff   419 May  5 07:47 packer-manifest.json
+-rw-r--r--   1 Ken  staff   419 May  5 07:47 packer-manifest.json
 
 ...
 ```
@@ -84,7 +84,7 @@ cat packer-manifest.json
       "builder_type": "amazon-ebs",
       "build_time": 1620215246,
       "files": null,
-      "artifact_id": "eu-central-1:ami-0b70b458400c49bb3,us-east-1:ami-00c645bf39a7a66c2,us-west-2:ami-03b71c51298c1dc68",
+      "artifact_id": "us-west-1:ami-0b70b458400c49bb3,us-east-1:ami-00c645bf39a7a66c2,us-west-2:ami-03b71c51298c1dc68",
       "packer_run_uuid": "136c7fbe-248e-d454-3f7a-ea39c873792e",
       "custom_data": null
     }
