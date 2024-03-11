@@ -1,7 +1,7 @@
 # Lab: Packer Provisioners
 This lab will walk you through adding a provisioner to your Packer HCL Template. Provisioners use built-in and third-party software to install and configure the machine image after booting.
 
-Duration: XX minutes
+Duration: xx minutes
 
 - Task 1: Add a Packer provisioner to install all updates and the nginx service
 - Task 2: Validate the Packer Template
