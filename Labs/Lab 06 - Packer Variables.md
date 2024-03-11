@@ -1,6 +1,6 @@
 # Lab: Utilize Variables with Packer Templates
 
-Duration: 35 minutes
+Duration: XX minutes
 
 - Task 1: Add a variable block
 - Task 2: Add a local block
