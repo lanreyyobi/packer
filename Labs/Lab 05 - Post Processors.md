@@ -1,7 +1,7 @@
 # Lab: Packer Post Processors
 This lab will walk you through adding a post-processor to your Packer HCL Template.  Post-processors run after the image is built by the builder and provisioned by the provisioner(s). Post-processors are optional, and they can be used to upload artifacts, re-package, or more.
 
-Duration: 30 minutes
+Duration: xx minutes
 
 - Task 1: Add a Packer post-processor to write a manifest of all artifacts packer produced.
 - Task 2: Validate the Packer Template
