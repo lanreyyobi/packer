@@ -8,7 +8,7 @@ Duration: 15 minutes
 - Task 3: Build Images for different operating systems
 
 ### Task 1: Update Packer Template to support Multiple Operating Systems
-The Packer AWS builder supports the ability to create an AMI for multiple operating systems.  The source AMIs are specific to the operating sysetm being deployed, so we will need to specify a unique source for each unique operating system image.
+The Packer AWS builder supports the ability to create an AMI for multiple operating systems.  The source AMIs are specific to the operating system being deployed, so we will need to specify a unique source for each unique operating system image.
 
 ### Step 1.1.1
 
@@ -126,12 +126,12 @@ Build 'amazon-linux.amazon-ebs.amazon-linux' finished after 4 minutes 20 seconds
 
 ==> Builds finished. The artifacts of successful builds are:
 --> amazon-ebs.ubuntu: AMIs were created:
-eu-central-1: ami-0d3149a44d9d5cf0a
+us-west-1: ami-0d3149a44d9d5cf0a
 us-east-1: ami-0598ff452495420ec
 us-west-2: ami-00c47ae1ca96cc667
 
 --> amazon-ebs.ubuntu: AMIs were created:
-eu-central-1: ami-0d3149a44d9d5cf0a
+us-west-1: ami-0d3149a44d9d5cf0a
 us-east-1: ami-0598ff452495420ec
 us-west-2: ami-00c47ae1ca96cc667
 
