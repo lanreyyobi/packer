@@ -118,7 +118,7 @@ variable "instance_type" {
 
 variable "ami_regions" {
   type    = list(string)
-  default = ["us-west-2", "us-east-1", "eu-central-1"]
+  default = ["us-west-2", "us-east-1", "us-west-1"]
 }
 
 variable "tags" {
