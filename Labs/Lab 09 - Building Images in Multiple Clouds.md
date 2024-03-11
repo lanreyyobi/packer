@@ -1,7 +1,7 @@
 # Lab: Building Images in Multiple Clouds
 This lab will walk you through updating your Packer Template to build images across AWS and Azure.
 
-Duration: 30 minutes
+Duration: XX minutes
 
 - Task 1: Update Packer Template to support Multiple Clouds
 - Task 2: Specify Cloud Specific Attributes
