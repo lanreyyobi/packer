@@ -1,7 +1,7 @@
 # Lab 2: Packer CLI
 The Packer command line interface (CLI) is how users/applications interact with Packer.  There is no UI or API for Packer.
 
-Duration: 15 minutes
+Duration: xx minutes
 
 - Task 1: Explore the Packer CLI
 - Task 2: Packer Version
