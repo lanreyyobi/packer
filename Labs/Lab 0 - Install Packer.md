@@ -7,7 +7,7 @@ Packer Packer may be installed in the following ways:
 
 This lab will walk you through installing packer on an Ubuntu workstation using the `apt` package manager
 
-Duration: 10 minutes
+Duration: xx minutes
 
 - Task 1: Install Packer on Ubuntu Workstation
 - Task 2: Validate the Packer Install
