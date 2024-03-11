@@ -1,7 +1,7 @@
 # Lab: Code Organization
 Packer HCL Templates can be specified in a single `file.pkr.hcl` or in multiple files within a single folder.  To assist with code readability it may be beneficial to break out a large `pkr.hcl` file into separate files.
 
-Duration: 30 minutes
+Duration: xx minutes
 
 - Task 1: Breakout Packer Template across multiple files
 - Task 2: Validate the Packer Template
