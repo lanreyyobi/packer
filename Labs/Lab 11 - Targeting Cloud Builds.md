@@ -1,7 +1,7 @@
 # Lab: Target Clouds and Build Types using Packer
 When performing image builds it might be favorable to only target a particular build by type or cloud target.  Packer provides this ability via the `-only` and `-exclude` parameters.
 
-Duration: XX minutes
+Duration: xx minutes
 
 - Task 1: Target Provisioners to only run for certain sources
 - Task 2: Target Builds for only AWS Sources
