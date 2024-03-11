@@ -1,7 +1,7 @@
 # Lab: Building Images for Different Operating Systems
 This lab will walk you through updating your Packer Template to build different images for each operating system.
 
-Duration: 15 minutes
+Duration: xx minutes
 
 - Task 1: Update Packer Template to support multiple operating system builds
 - Task 2: Validate the Packer Template
