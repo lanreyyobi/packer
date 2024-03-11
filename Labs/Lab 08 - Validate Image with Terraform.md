@@ -1,7 +1,7 @@
 # Lab: Validate Image by Using Terraform
 This lab will walk you through validating our Packer image is ready for production deployment.  We will utlize HashiCorp Terraform to provision a server using the image that Packer created, and valdiate the application is accessible via the IP Address and DNS name.
 
-Duration: 20 minutes
+Duration: xx minutes
 
 - Task 1: Build a new Image using Packer with our web application installed
 - Task 2: Validate the Image by deploying a server using HashiCorp Terraform
