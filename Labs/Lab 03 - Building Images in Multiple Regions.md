@@ -1,7 +1,7 @@
 # Lab: Building Images in Multiple Regions
 This lab will walk you through updating your Packer Template to build images across multiple regions within AWS.
 
-Duration: 30 minutes
+Duration: xx minutes
 
 - Task 1: Update Packer Template to support Multiple Regions
 - Task 2: Validate the Packer Template
