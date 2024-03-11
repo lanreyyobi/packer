@@ -10,7 +10,7 @@ Duration: 15 minutes
 - Task 5: Packer fmt
 - Task 6: Packer Inspect
 
-### Task 1: Use the Terraform CLI to Get Help
+### Task 1: Use the Packer CLI to Get Help
 
 Execute the following command to display available commands:
 
