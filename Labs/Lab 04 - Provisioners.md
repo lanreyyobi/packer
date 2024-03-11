@@ -1,12 +1,12 @@
 # Lab: Packer Provisioners
 This lab will walk you through adding a provisioner to your Packer HCL Template. Provisioners use built-in and third-party software to install and configure the machine image after booting.
 
-Duration: 30 minutes
+Duration: XX minutes
 
 - Task 1: Add a Packer provisioner to install all updates and the nginx service
 - Task 2: Validate the Packer Template
 - Task 3: Build a new Image using Packer
-- Task 4: Install Web App
+- Task 4: Upload a file
 
 ### Task 1: Update Packer Template to support Multiple Regions
 The Packer AWS builder supports the ability to create an AMI in multiple AWS regions.  AMIs are specific to regions so this will ensure that the same image is available in all regions within a single cloud.  We will also leverage Tags to indentify our image.
@@ -20,7 +20,7 @@ source "amazon-ebs" "ubuntu" {
   ami_name      = "packer-ubuntu-aws-{{timestamp}}"
   instance_type = "t2.micro"
   region        = "us-west-2"
-  ami_regions   = ["us-west-2", "us-east-1", "eu-central-1"]
+  ami_regions   = ["us-west-2", "us-east-1", "us-west-1"]
   source_ami_filter {
     filters = {
       name                = "ubuntu/images/*ubuntu-jammy-22.04-amd64-server-*"
@@ -307,19 +307,19 @@ Build 'amazon-ebs.ubuntu' finished after 8 minutes 45 seconds.
 
 ==> Builds finished. The artifacts of successful builds are:
 --> amazon-ebs.ubuntu: AMIs were created:
-eu-central-1: ami-08b5a99dee46eede8
+us-west-1: ami-08b5a99dee46eede8
 us-east-1: ami-00604b26ad22ba5ee
 us-west-2: ami-040bd66b2e79ccb64
 ```
 
 
-### Task 4: Install Web App
+### Task 4: Add a file
 
 #### Step 4.1.1
-Copy the web application assets into our packer working directory.  You can download the assets from https://github.com/btkrausen/hashicorp/tree/master/packer/assets
+Copy a file into our packer working directory. Create a simple setup.sh file inside the doc directory. 
 
 ```bash
-mkdir assets
+mkdir doc
 ```
 
 #### Step 4.1.2
@@ -340,13 +340,13 @@ build {
   }
 
   provisioner "file" {
-    source      = "assets"
+    source      = "doc"
     destination = "/tmp/"
   }
 
    provisioner "shell" {
     inline = [
-      "sudo sh /tmp/assets/setup-web.sh",
+      "sudo sh /tmp/doc/setup.sh",
     ]
   }
 }
