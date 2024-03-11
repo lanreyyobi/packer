@@ -1,7 +1,7 @@
 # Lab: Integrating Packer with Terraform
 HashiCorp Terraform is a simple and powerful tool for safely and predictably creating, changing, and improving infrastructure.  Terraform is an infrastructure as code (IaC) tool that uses declarative configuration files written in HashiCorp Configuration Language (HCL) similar to Packer.  While Packer excels at building automated machine images, Terraform excels at deploying those images which is why Packer and Terraform are typically found to be complementary for infrastructure as code lifecycles.
 
-Duration: 30 minutes
+Duration: xx minutes
 
 - Task 1: Create Terraform code for deploying Packer Images into AWS
 - Task 2: Deploy instance from AMI using Terraform
